@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CUSTOMER_SHOPPING_BEHAVE_ANALYSIS
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
@@ -59,3 +60,6 @@ CUSTOMER_SHOPPING_BEHAVE_ANALYSIS
 
 --------
 
+=======
+# CUSTOMER_BEHAVIOR_ANALYSIS
+>>>>>>> 2a14be7596eb304d59b8c8fa914a631e05468cfa
