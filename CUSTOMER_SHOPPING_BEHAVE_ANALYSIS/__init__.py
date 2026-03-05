@@ -1,0 +1,1 @@
+from CUSTOMER_SHOPPING_BEHAVE_ANALYSIS import config  # noqa: F401

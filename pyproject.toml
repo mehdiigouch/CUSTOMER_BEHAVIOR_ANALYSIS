@@ -1,0 +1,45 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "CUSTOMER_SHOPPING_BEHAVE_ANALYSIS"
+version = "0.0.1"
+description = "CUSTOMER_SHOPPING_BEHAVE_ANALYSIS"
+authors = [
+  { name = "DEX" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+    "loguru",
+    "mkdocs",
+    "pandas>=2.3.3",
+    "pip",
+    "pyodbc>=5.3.0",
+    "pytest",
+    "python-dotenv",
+    "ruff",
+    "sqlalchemy>=2.0.46",
+    "tqdm",
+    "typer",
+]
+requires-python = "~=3.10.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["CUSTOMER_SHOPPING_BEHAVE_ANALYSIS"]
+include = ["pyproject.toml", "CUSTOMER_SHOPPING_BEHAVE_ANALYSIS/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["CUSTOMER_SHOPPING_BEHAVE_ANALYSIS"]
+force-sort-within-sections = true
+
