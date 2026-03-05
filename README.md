@@ -1,65 +1,26 @@
-<<<<<<< HEAD
-# CUSTOMER_SHOPPING_BEHAVE_ANALYSIS
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+# Customer Behavior Analysis
 
-CUSTOMER_SHOPPING_BEHAVE_ANALYSIS
+## Overview
+Customer Behavior Analysis is a data-driven project aimed at understanding and predicting customer behavior. The goal is to provide actionable insights that help businesses improve customer satisfaction, optimize marketing strategies, and increase sales. This project leverages SQL, data visualization, and analytics techniques to explore customer purchasing patterns, product preferences, and engagement metrics.
 
-## Project Organization
+---
 
-```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         CUSTOMER_SHOPPING_BEHAVE_ANALYSIS and configuration for tools like black
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── CUSTOMER_SHOPPING_BEHAVE_ANALYSIS   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes CUSTOMER_SHOPPING_BEHAVE_ANALYSIS a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
-```
+## Features
+- Analyze customer purchasing history and trends.
+- Calculate key metrics: average purchase value, frequency, and product preferences.
+- Identify top-performing products and customer segments.
+- Visualize data using charts for actionable insights.
+- Support for SQL-based data extraction and analysis.
+- making a dashboard using power bi
 
---------
+---
 
-=======
-# CUSTOMER_BEHAVIOR_ANALYSIS
->>>>>>> 2a14be7596eb304d59b8c8fa914a631e05468cfa
+## Technologies Used
+- **Programming Language:**  Python ,SQL
+- **Database:**  SQL Server
+- **Data Analysis:** Pandas, NumPy, Matplotlib
+- **Version Control:** Git & GitHub
+- **IDE/Environment:**  VS Code
+
+---
